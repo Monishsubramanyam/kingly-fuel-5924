@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+
+}
+#navbar{
+    border: 1px solid red;
+    height: 60px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+#navbar>div {
+ display: flex;
+ gap: 20px;
+ padding: 16px;
+}
+#logo{
+    color: rgb(229,16,117);
+    font-weight: 400 ;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#img1{
+    background-image: url("https://c1.iggcdn.com/indiegogo-media-prod-cld/image/upload/f_auto/v1663866576/rcmaygmarbmseoccwmt1.jpg");
+    background-color: antiquewhite;
+}
