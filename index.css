@@ -3,7 +3,7 @@
 
 }
 #navbar{
-    border: 1px solid red;
+    
     height: 60px;
     margin: auto;
     display: flex;
@@ -16,12 +16,173 @@
  padding: 16px;
 }
 #logo{
-    color: rgb(229,16,117);
-    font-weight: 400 ;
-    font-size: 25px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #e51075;;
+    font-weight: 500;
+    font-size: 14px;
+    width: 160px;
+    height: 24px;
+    
+    
+
 }
-#img1{
-    background-image: url("https://c1.iggcdn.com/indiegogo-media-prod-cld/image/upload/f_auto/v1663866576/rcmaygmarbmseoccwmt1.jpg");
-    background-color: antiquewhite;
+.img{
+    background-image:url("https://c1.iggcdn.com/indiegogo-media-prod-cld/image/upload/f_auto/v1664294816/nttiswdqnnf23klh2n0l.jpg"); 
+    background-color: white;
+    width: auto;
+    height: 480px;
+    opacity: 0.8;
+    text-align: left;
+    justify-content: end;
 }
+.imgtxt1{
+    color: white;
+    margin: 10px;
+    margin-left: 5%;
+    padding-top: 300px;
+    
+}
+.imgtxt{
+    padding-top: 10px;
+}
+span{
+        background-color: whitesmoke;
+        color: black;
+        
+}
+#arrow{
+    border-radius: 10px;
+    padding: 8px;
+    font: solid;
+}
+#midtxt{
+    text-align: center;
+    margin-top:25px ;
+    padding: 10px;
+    
+}
+#midtxt :nth-child(3){
+    border: none;
+    padding: 10px;
+    margin-right: 20px;
+    background-color: rgb(235, 75, 150);
+    border-radius: 1px;
+    box-shadow: box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;;
+}
+#midtxt :nth-child(4){
+    box-shadow: box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;;
+    padding: 10px;
+    margin-right: 20px;
+    background-color: white;
+    color: rgb(235, 75, 150);
+    margin-top: 15px;
+    border-radius: 1px;
+
+}
+#midrow{
+    display: flex;
+    margin-left: 6%;
+    margin-top: 25px;
+    
+}
+.mid{
+    display: flex;
+    margin: 15px;
+    padding: 20px;
+    margin-left: 30px;
+    
+}
+#midbox{
+    width: 25%;
+    height: 200px;
+    text-align: left;
+    padding: 10px;
+    box-shadow: box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+}
+#midimg{
+    width:95%;
+    height: fit-content;
+}
+.coolsec{
+   width: 90%;
+   height: 800px;
+    
+   margin-left: 4.5%;
+   margin-top: 200px;
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+    
+
+}
+#cooltxt{
+     
+    margin: 10px;
+    width: 90%;
+    height: 85%;
+    padding: 10px;
+     
+}
+#coolimg1{
+    background-image: url("https://c1.iggcdn.com/indiegogo-media-prod-cld/image/upload/f_auto/v1664384340/dxlpczk2t7etftjh21st.jpg");
+    height: 80%;
+    width: auto;
+    text-align: center;
+    padding-bottom: 20px;
+     
+    background-size: 100% 110%;
+    opacity: 0.9;
+  
+ 
+  
+}
+
+#coolbtm{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    text-decoration: solid;
+}
+#coolimg2{
+    background-image: url("https://c1.iggcdn.com/indiegogo-media-prod-cld/image/upload/f_auto/v1664384293/po4aiqjrnquowbppa89z.jpg");
+    height: 80%;
+    width: auto;
+    text-align: center;
+    padding-bottom: 20px;
+     
+    background-size: 100% 110%;
+    opacity: 0.9;
+
+}
+#coolimg3{
+    background-image: url("https://c1.iggcdn.com/indiegogo-media-prod-cld/image/upload/f_auto/v1655332492/xmwmdtjfvyy2mbbre4qo.png");
+    height: 80%;
+    width: auto;
+    text-align: center;
+    padding-bottom: 20px;
+     
+    background-size: 100% 110%;
+    opacity: 0.9;
+
+}
+#coolimg4{
+    background-image: url("https://c1.iggcdn.com/indiegogo-media-prod-cld/image/upload/f_auto/v1664579598/z2wgrbg96hedz6mee1uq.jpg");
+    height: 80%;
+    width: auto;
+    text-align: center;
+    padding-bottom: 20px;
+    
+    background-size: 100% 110%;
+    opacity: 0.9;
+
+}
+#coolh1{
+    color: beige;
+    padding-top: 150px;
+}
+#cycle{
+    background-image: url("https://c4.iggcdn.com/indiegogo-media-prod-cld/image/upload/c_fit,w_auto,g_center,q_auto:best,dpr_1.0,f_auto/homepage/cf-bg-mobile-lg.jpg");
+    text-align: center;
+    width: 95%;
+    height: 400px;
+    margin: 4.6%;
+}
+
