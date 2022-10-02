@@ -180,9 +180,50 @@ span{
 }
 #cycle{
     background-image: url("https://c4.iggcdn.com/indiegogo-media-prod-cld/image/upload/c_fit,w_auto,g_center,q_auto:best,dpr_1.0,f_auto/homepage/cf-bg-mobile-lg.jpg");
-    text-align: center;
-    width: 95%;
+   
+    width: 50%;
     height: 400px;
-    margin: 4.6%;
+    margin-left: 300px;
 }
+#cycletxt{
+    padding-top: 200px;
+    text-align: center;
+ 
+}
+#cycletxt :nth-child(2){
+    padding-top: 25px;
+     
+}
+#cycletxt > h3{
+    padding-top: 25px;
+     
+}
+.btmtxt{
+    text-align: center;
+    padding-top: 15px;
+}
+.btmtxt>p{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.btmtxt>button{
+    padding: 15px;
+    background-color: antiquewhite;
+}
+.btm{
+    display: flex;
+    width: 90%;
+    height: 150px;
+    margin-left: 4.6%;
 
+}
+#btmm{
+    width:30% ;
+    height: 90%;
+    padding-left: 25px;
+    
+}
+#btmm>img{
+    height: 120%;
+    width: 120%;
+}
